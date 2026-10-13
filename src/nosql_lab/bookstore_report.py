@@ -15,7 +15,7 @@ AUTHOR_IDS = ["author_002", "author_003", "author_004"]
 logging.basicConfig(level=logging.INFO)
 
 
-def main() -> None:
+def main():
     """Connect to Atlas and print the report."""
     client = None
     try:
